@@ -7089,7 +7089,7 @@ return [
 'mssql_rows_affected' => ['int', 'link_identifier'=>'resource'],
 'mssql_select_db' => ['bool', 'database_name'=>'string', 'link_identifier='=>'resource'],
 'mt_getrandmax' => ['int'],
-'mt_rand' => ['int', 'min'=>'int', 'max'=>'int'],
+'mt_rand' => ['int|false', 'min'=>'int', 'max'=>'int'],
 'mt_rand\'1' => ['int'],
 'mt_srand' => ['void', 'seed='=>'int', 'mode='=>'int'],
 'MultipleIterator::__construct' => ['void', 'flags='=>'int'],
